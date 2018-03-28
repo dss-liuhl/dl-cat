@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const wrench = require('wrench');
+
+const wrench = require('wrench');//nodejs 递归文件操作 
+
 const parseDocMdUtil = require('./utils/parse-doc-md');
 const parseDemoMdUtil = require('./utils/parse-demo-md');
 const nameWithoutSuffixUtil = require('./utils/name-without-suffix');
